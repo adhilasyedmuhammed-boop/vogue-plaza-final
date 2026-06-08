@@ -1,0 +1,81 @@
+# ============================================================
+# Vogue Plaza 2.0 — Project Requirements
+# ============================================================
+# This project is a full-stack JavaScript application.
+# It uses Node.js for both the frontend (Vite + React)
+# and the backend (Express + MongoDB).
+#
+# NOTE: This is NOT a Python project. There is no pip-based
+# requirements.txt. Dependencies are managed via npm.
+# Run `npm install` inside each folder to restore all packages.
+# ============================================================
+
+
+# ============================================================
+# BACKEND — /vogue-plaza/backend/
+# Runtime: Node.js
+# Package Manager: npm
+# Start Command: npm run dev (uses nodemon)
+# ============================================================
+
+# Production Dependencies
+express           ^5.2.1     # Web framework for API routing
+mongoose          ^9.6.3     # MongoDB ODM for data modeling
+cors              ^2.8.6     # Cross-Origin Resource Sharing middleware
+dotenv            ^17.4.2    # Environment variable loader from .env file
+
+# Development Dependencies
+nodemon           ^3.1.14    # Auto-restart server on file change
+
+
+# ============================================================
+# FRONTEND — /vogue-plaza/frontend/
+# Runtime: Node.js (Vite Dev Server)
+# Package Manager: npm
+# Start Command: npm run dev (uses vite on port 5173)
+# ============================================================
+
+# Production Dependencies
+react             ^19.2.6    # Core React library
+react-dom         ^19.2.6    # React DOM rendering
+react-router-dom  ^7.16.0    # Client-side routing
+framer-motion     ^12.40.0   # Animation library for micro-interactions
+lucide-react      ^1.17.0    # SVG icon library (UI icons only, no brand icons)
+axios             ^1.17.0    # HTTP client for API requests
+cors              ^2.8.6     # CORS middleware
+
+# Development Dependencies
+vite              ^8.0.12    # Build tool & dev server
+@vitejs/plugin-react ^6.0.1  # Vite plugin for React JSX support
+@tailwindcss/vite  latest    # Tailwind CSS Vite plugin (v4)
+tailwindcss        ^4.3.0    # Utility-first CSS framework
+postcss            ^8.5.15   # CSS post-processor
+autoprefixer       ^10.5.0   # Autoprefixer for CSS vendor prefixes
+eslint             ^10.3.0   # JavaScript linter
+
+
+# ============================================================
+# ENVIRONMENT VARIABLES — /backend/.env
+# ============================================================
+# MONGO_URI=mongodb://localhost:27017/vogue_plaza
+# PORT=5000
+# NODE_ENV=development
+
+
+# ============================================================
+# SETUP INSTRUCTIONS
+# ============================================================
+#
+# 1. Install Backend Dependencies:
+#    cd backend
+#    npm install
+#    npm run dev        → starts on http://localhost:5000
+#
+# 2. Install Frontend Dependencies:
+#    cd frontend
+#    npm install
+#    npm run dev        → starts on http://localhost:5173
+#
+# 3. Ensure MongoDB is running locally before starting the backend.
+#
+# ============================================================

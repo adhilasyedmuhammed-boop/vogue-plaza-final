@@ -1,0 +1,8 @@
+[
+    { "slug": "mens-wear", "name": "Men's Wear", "img": "https://images.unsplash.com/photo-1488161628813-04466f872be2?q=80&w=600", "alt": "Elegance Menswear Suits & Apparel" },
+    { "slug": "ladies-wear", "name": "Ladies' Wear", "img": "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?q=80&w=600", "alt": "Premium Womenswear Collection" },
+    { "slug": "kids", "name": "Kids", "img": "https://images.unsplash.com/photo-1503919545889-aef636e10ad4?q=80&w=600", "alt": "Designer Kids Clothing" },
+    { "slug": "accessories", "name": "Accessories", "img": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=600", "alt": "Beauty Cosmetics and Designer Accessories" },
+    { "slug": "shoes", "name": "Shoes", "img": "https://images.unsplash.com/photo-1549298916-b41d501d3772?q=80&w=600", "alt": "Luxury Designer Footwear Selection" },
+    { "slug": "watches", "name": "Watches", "img": "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?q=80&w=600", "alt": "Luxury Watches Collection" }
+]
